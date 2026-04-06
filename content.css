@@ -1,0 +1,23 @@
+/* ============================================================
+   Gitsugi — structural styles (animations injected by JS)
+   ============================================================ */
+
+.gitsugi-shimmer {
+  opacity: 0;
+  pointer-events: none !important;
+}
+
+.gitsugi-gold-cell {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.gitsugi-gold-cell::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 2px;
+  background: #fff1cc;
+  opacity: 0;
+  pointer-events: none;
+}

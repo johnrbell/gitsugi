@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=340">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <span class="kanji">金継ぎ</span>
+        <h1>gitsugi</h1>
+      </div>
+      <label class="toggle" title="Toggle Gitsugi">
+        <input type="checkbox" id="enabled">
+        <span class="toggle-track">
+          <span class="toggle-thumb"></span>
+        </span>
+      </label>
+    </header>
+
+    <p class="tagline">mending your git history with gold</p>
+
+    <div class="divider"></div>
+
+    <section class="settings">
+      <div class="setting-group">
+        <span class="setting-label">Profile Scope</span>
+        <div class="radio-group">
+          <label class="radio">
+            <input type="radio" name="scope" value="all" id="scope-all">
+            <span class="radio-mark"></span>
+            All profiles
+          </label>
+          <label class="radio">
+            <input type="radio" name="scope" value="own" id="scope-own">
+            <span class="radio-mark"></span>
+            Own profile only
+          </label>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <label class="setting-label" for="shimmerDirection">Shimmer Direction</label>
+        <select id="shimmerDirection">
+          <option value="top-left-to-bottom-right">↘  Top-left → Bottom-right</option>
+          <option value="left-to-right">→  Left → Right</option>
+          <option value="top-to-bottom">↓  Top → Bottom</option>
+          <option value="right-to-left">←  Right → Left</option>
+          <option value="bottom-to-top">↑  Bottom → Top</option>
+          <option value="top-right-to-bottom-left">↙  Top-right → Bottom-left</option>
+          <option value="bottom-left-to-top-right">↗  Bottom-left → Top-right</option>
+          <option value="bottom-right-to-top-left">↖  Bottom-right → Top-left</option>
+        </select>
+      </div>
+
+      <div class="setting-group">
+        <label class="setting-label">
+          Shimmer Speed
+          <span class="setting-value" id="speed-value">2s</span>
+        </label>
+        <input type="range" id="shimmerSpeed" min="0.5" max="5" step="0.5" value="2">
+        <div class="range-labels"><span>Fast</span><span>Slow</span></div>
+      </div>
+
+      <div class="setting-group">
+        <label class="setting-label">
+          Replay Delay
+          <span class="setting-value" id="pause-value">3s</span>
+        </label>
+        <input type="range" id="shimmerPause" min="0" max="10" step="0.5" value="3">
+        <div class="range-labels"><span>None</span><span>Long</span></div>
+      </div>
+
+      <div class="setting-group">
+        <label class="setting-label">
+          Gold Intensity
+          <span class="setting-value" id="opacity-value">55%</span>
+        </label>
+        <input type="range" id="goldOpacity" min="0.2" max="1" step="0.05" value="0.55">
+        <div class="range-labels"><span>Subtle</span><span>Rich</span></div>
+      </div>
+    </section>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
