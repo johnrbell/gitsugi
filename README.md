@@ -6,7 +6,7 @@
 
 Gitsugi applies the same idea to your GitHub profile. Empty days on your contribution graph aren't failures — they're rest, life, weekends, all the things that happen between the code. This extension fills those gaps with gold and a gentle shimmer, turning absence into something worth looking at.
 
-![gitsugi in action](screenshot.png)
+![gitsugi in action](gitsugi.gif)
 
 ## Features
 
