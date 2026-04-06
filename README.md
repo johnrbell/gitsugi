@@ -37,7 +37,11 @@ This is an unpacked Chrome extension (Manifest V3). No build step required.
 
 ## Settings
 
-Click the extension icon to open the popup. From there you can adjust:
+Click the extension icon to open the popup.
+
+<img src="popup-screenshot.png" width="320" alt="gitsugi settings popup">
+
+From there you can adjust:
 
 | Setting | What it does |
 |---|---|
