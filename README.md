@@ -51,3 +51,7 @@ From there you can adjust:
 | **Shimmer Speed** | How fast the wave sweeps across the graph |
 | **Replay Delay** | Pause between shimmer cycles |
 | **Gold Intensity** | How rich or subtle the gold color is |
+
+Additional Screenshots: 
+
+![gitsugi in action](gitsugi2.gif)
