@@ -2,9 +2,9 @@
 
 **Mend the gaps in your GitHub contribution graph with gold.**
 
-[Kintsugi](https://en.wikipedia.org/wiki/Kintsugi) (金継ぎ) is the Japanese art of repairing broken pottery by joining the cracks with gold — treating the breakage as part of the object's history rather than something to hide.
+[Kintsugi](https://en.wikipedia.org/wiki/Kintsugi) (金継ぎ) is the Japanese art of repairing broken pottery by joining the cracks with gold, treating the breakage as part of the object's history rather than something to hide.
 
-Gitsugi applies the same idea to your GitHub profile. Empty days on your contribution graph aren't failures — they're rest, life, weekends, all the things that happen between the code. This extension fills those gaps with gold and a gentle shimmer, turning absence into something worth looking at.
+Gitsugi applies the same idea to your GitHub profile. Empty days on your contribution graph aren't failures. They're rest, life, weekends, all the things that happen between the code. This extension fills those gaps with gold and a gentle shimmer, turning absence into something worth looking at.
 
 ![gitsugi in action](gitsugi.gif)
 
@@ -33,7 +33,7 @@ This is an unpacked Chrome extension (Manifest V3). No build step required.
 
 4. Click **Load unpacked** and select the `gitsugi` folder
 
-5. Visit any GitHub profile — the contribution graph should glow gold
+5. Visit any GitHub profile and the contribution graph should glow gold
 
 ## Settings
 
