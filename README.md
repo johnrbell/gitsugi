@@ -4,7 +4,9 @@
 
 [Kintsugi](https://en.wikipedia.org/wiki/Kintsugi) (金継ぎ) is the Japanese art of repairing broken pottery by joining the cracks with gold, treating the breakage as part of the object's history rather than something to hide.
 
-Gitsugi applies the same idea to your GitHub profile. Empty days on your contribution graph aren't failures. They're rest, life, weekends, all the things that happen between the code. This extension fills those gaps with gold and a gentle shimmer, turning absence into something worth looking at.
+Gitsugi applies the same idea to your GitHub profile. Empty days on your contribution graph aren't failures. They're rest, life, weekends, all the things that happen between the code. 
+
+This extension fills those gaps with gold and a gentle shimmer, turning absence into something worth looking at.
 
 ![gitsugi in action](gitsugi.gif)
 
