@@ -21,7 +21,7 @@ This extension fills those gaps with gold and a gentle shimmer, turning absence 
 
 ## Install
 
-[https://chromewebstore.google.com/detail/gitsugi/cjehofjcfdhagfndlfejdabebdcpoejo?authuser=0&hl=en](Install vis Chrome Web Store)
+[Install vis Chrome Web Store](https://chromewebstore.google.com/detail/gitsugi/cjehofjcfdhagfndlfejdabebdcpoejo?authuser=0&hl=en)
 
 This repo is an unpacked Chrome extension (Manifest V3). No build step required.
 
